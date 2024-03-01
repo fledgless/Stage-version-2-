@@ -41,6 +41,82 @@
                     </form>
                 </div>
             </div>
+            <div class="top-nav">
+                <div class="menu-principal-container">
+                    <ul class="menu-principal">
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/presentation">Présentation</a>
+                            <ul classe="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/mot-de-la-directrice">Mot de la directrice</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/reussir-au-cfp-sainte-barbe">Réussir au CFP Sainte Barbe</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/l-accompagnement-personnalise">L'accompagnement personnalisé</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/l-equipe-educative-et-pedagogique">L'équipe pédagogique et éducative</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/les-missions-d-apprentis-d-auteuil">Les missions d'Apprentis d'Auteuil</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/nos-metiers">Nos métiers</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/couvreur">Couvreur</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/zingueur">Zingueur</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/etancheur">étancheur</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/menuisier-installeur">Menuisier Installeur</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/menuisier-fabricant">Menuisier Fabricant</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/plaquiste-platrier">Plaquiste-plâtrier</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/coffreur-bancheur">Coffreur bancheur</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/macon">Maçon</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/agent-de-maintenance-des-batiments">Agent de maintenances des bâtiments</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/un-projet-professionnel">Un projet professionnel</a>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/un-ecrin-vert">Un écrin vert</a>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/vie-pratique">Vie pratique</a>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/espace-entreprise">Espace entreprise</a>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/contact">Contact</a>
+                        </li>
+                        <li class="menu-principal-item">
+                            <a href="<?= SITE_URL ?>/actualites">Actualités</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 </body>

@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     line-height: 1.4;
     font-size: 16px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 /* template -> header */
@@ -60,7 +61,6 @@ header h1 a {
 
 header .blog-tagline {
     font-size: 16px;
-    font-family: "Roboto Condensed", sans-serif;
     margin: 16px 0px;
 }
 
@@ -141,5 +141,41 @@ header .blog-tagline {
     .logo-header {
         max-width: 60px;
         max-height: 60px;
+    }
+}
+
+/* template -> nav */
+
+.top-nav {
+    background-color: #f5f5f5;
+    z-index: 120;
+}
+
+.top-nav .menu-principal {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.top-nav .menu-principal a {
+    text-transform: uppercase;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #222;
+    display: block;
+    font-weight: bold;
+}
+
+ul {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1110px) {
+    .top-nav {
+        display: none;
     }
 }

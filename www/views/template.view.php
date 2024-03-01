@@ -7,6 +7,9 @@
     <link rel="stylesheet" href=".\assets\styles\style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="./public/fonts/tondu/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="banner" st>
@@ -23,7 +26,7 @@
                             Centre de Formation Professionnelle Sainte Barbe
                         </a>
                     </h1>
-                    <p class="blog-tagline">Métiers du bâtiment, de l'éco-construction, et de l'éco-rénovation</p>
+                    <p class="blog-tagline">Métiers du bâtiment, de l'éco-construction, et de l'éco-rénovation.</p>
                 </div>
                 <div class="recherche-header">
                     <form role="search" method="get" class="search-form" action="<?= SITE_URL ?>">

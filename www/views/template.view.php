@@ -98,15 +98,65 @@
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/un-projet-professionnel">Un projet professionnel</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/l-alternance-une-voie-gagnante">L'alternance, une voie gagnante</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/se-preparer-a-l-apprentissage">Se préparer à l'apprentissage</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/temoignages">Témoignages</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/un-ecrin-vert">Un écrin vert</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/eco-construction">Eco-construction</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/visite-virtuelle-du-site">Visite virtuelle du site</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/vie-pratique">Vie pratique</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/se-loger-a-proximite">Se loger à proximité</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/transport-et-parking">Transport et parking</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/carte-generations">Carte générations #HDF</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/snackerie">Snackerie</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/salle-d-activites">Salle d'activités</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/espace-entreprise">Espace entreprise</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/sous-certification-qualiopi">Organisme de formation Apprentis d'Auteuil : sous certificatio Qualiopi</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/formation-continue">Formation continue</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/formation-sur-mesure-pour-vos-salaries">Formation sur-mesure pour vos salariés</a>
+                                </li>
+                                <li class="sub-menu_item">
+                                    <a href="<?= SITE_URL ?>/l-apprentissage-un-boost-pour-votre-entreprise">L'apprentissage, un boost pour votre entreprise</a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/contact">Contact</a>
@@ -117,6 +167,7 @@
                     </ul>
                 </div>
             </div>
+            <a class="dropbtn" href="#"></a>
         </div>
     </header>
 </body>

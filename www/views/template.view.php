@@ -46,7 +46,7 @@
                     <ul class="menu-principal">
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/presentation">Présentation</a>
-                            <ul classe="sub-menu">
+                            <!-- <ul classe="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/mot-de-la-directrice">Mot de la directrice</a>
                                 </li>
@@ -62,11 +62,11 @@
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/les-missions-d-apprentis-d-auteuil">Les missions d'Apprentis d'Auteuil</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/nos-metiers">Nos métiers</a>
-                            <ul class="sub-menu">
+                            <!-- <ul class="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/couvreur">Couvreur</a>
                                 </li>
@@ -94,11 +94,11 @@
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/agent-de-maintenance-des-batiments">Agent de maintenances des bâtiments</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/un-projet-professionnel">Un projet professionnel</a>
-                            <ul class="sub-menu">
+                            <!-- <ul class="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/l-alternance-une-voie-gagnante">L'alternance, une voie gagnante</a>
                                 </li>
@@ -108,22 +108,22 @@
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/temoignages">Témoignages</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/un-ecrin-vert">Un écrin vert</a>
-                            <ul class="sub-menu">
+                            <!-- <ul class="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/eco-construction">Eco-construction</a>
                                 </li>
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/visite-virtuelle-du-site">Visite virtuelle du site</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/vie-pratique">Vie pratique</a>
-                            <ul class="sub-menu">
+                            <!-- <ul class="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/se-loger-a-proximite">Se loger à proximité</a>
                                 </li>
@@ -139,11 +139,11 @@
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/salle-d-activites">Salle d'activités</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/espace-entreprise">Espace entreprise</a>
-                            <ul class="sub-menu">
+                            <!-- <ul class="sub-menu">
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/sous-certification-qualiopi">Organisme de formation Apprentis d'Auteuil : sous certificatio Qualiopi</a>
                                 </li>
@@ -156,7 +156,7 @@
                                 <li class="sub-menu_item">
                                     <a href="<?= SITE_URL ?>/l-apprentissage-un-boost-pour-votre-entreprise">L'apprentissage, un boost pour votre entreprise</a>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </li>
                         <li class="menu-principal-item">
                             <a href="<?= SITE_URL ?>/contact">Contact</a>
@@ -170,5 +170,40 @@
             <a class="dropbtn" href="#"></a>
         </div>
     </header>
+    <footer>
+        <div class="container">
+            <div class="footer-rouge">
+              <div class="footer-rouge-logo">
+                <a href="http://www.apprentis-auteuil.org">
+                    <img src="\public\images\logo_aa_blanc.png" alt data-src="<?= SITE_URL ?>/public/images/logo_aa_blanc.png" decoding="async" width="75" height="77">
+                </a>
+              </div>
+              <div class="footer-rouge-menu">
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a href="https://www.apprentis-auteuil.org/comment-soutenir-apprentis-dauteuil.html">Comment soutenir Apprentis d'Auteuil</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="<?= SITE_URL ?>/mentions-legales">Mentions légales</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="<?= SITE_URL ?>/contact">Nous contacter</a>
+                    </li>
+                </ul>
+              </div>
+              <div class="footer-rouge-label_ideas">
+                <a href="http://www.ideas.asso.fr/">
+                    <img src="/public/images/label-ideas.png" alt data-src="<?= SITE_URL ?>/public/images/label-ideas.png" decoding="async" width="144" height="53">
+                </a>
+              </div>
+              <div class="footer-rouge-texte">
+                Fondation catholique reconnue d'utilité publique, acteur engagé de la prévention et de la protection de l'enfance.
+              </div>
+            </div>
+            <div class="footer-blanc">
+                <div class="footer-blanc-texte">Fondation reconnue d’utilité publique, acteur engagé de la prévention et de la protection de l’enfance, Apprentis d’Auteuil développe en France et à l’international des programmes d’accueil, d’éducation, de formation et d’insertion pour redonner aux jeunes et aux familles fragilisés ce qui leur manque le plus : la confiance. Les 7 200 collaborateurs d’Apprentis d’Auteuil accompagnent près de 40 000 jeunes et 8 000 familles dans plus de 400 établissements. A l’international, Apprentis d’Auteuil mène des actions dans plus de 31 pays aux côtés de 68 organisations partenaires. Pour soutenir nos actions, n’hésitez pas à faire un don à notre fondation. Apprentis d’Auteuil – fondation protection de l’enfance.</div>
+            </div>
+        </div> 
+    </footer>
 </body>
 </html>

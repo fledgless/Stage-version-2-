@@ -170,6 +170,11 @@
             <a class="dropbtn" href="#"></a>
         </div>
     </header>
+
+    <div id="container">
+        <?= $content ?>
+    </div>
+
     <footer>
         <div class="container">
             <div class="footer-rouge">

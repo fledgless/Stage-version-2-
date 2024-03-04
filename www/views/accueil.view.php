@@ -1,4 +1,5 @@
+<?php ob_start() ?>
+<h1>Accueil</h1>
 <?php
-$titre = "Page d'accueil";
 $content = ob_get_clean();
-require "template.view.php";
+require_once "template.view.php";

@@ -4,4 +4,4 @@
 
 <?php
 $content = ob_get_clean();
-require "template.view.php";
+require_once("template.view.php");
